@@ -35,8 +35,6 @@ body{
 }
 
 
-
-
 .container {
     background-image: url("38a17cec12b0df5f8a4188382ba0e279e7c6e6def0df-X2hc7H@2x.png");
     background-repeat:no-repeat;
@@ -53,7 +51,33 @@ body{
     height: 85px;
     width: 85px;
 }
+.container-detail {
+    position: relative;
+    width: 50%;
+    top: -40px;
+    left:140px;
+}
+.name{
+    display:inline-block;
+    font-size: 16px;
+    color: #000000;
+}
 
+.age {
+    display:inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.address > img{
+    height: 13px;
+    width: 10px;
+}
+.address{
+    margin-top: 10px;
+    font-size: 12px;
+}
 .skill{
     /* 计算宽度 */
     box-sizing: border-box;
