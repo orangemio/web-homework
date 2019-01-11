@@ -1,0 +1,127 @@
+body{
+    background: #29bde0;
+}
+
+.header{
+    height: 2.5rem;
+    background: #29bde0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-list{
+    background-image: url("矩形\ 6\ 拷贝\ 3.png");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-left: 1rem;
+}
+.menu-close{
+    background-image: url("矩形\ 10\ 拷贝.png");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+}
+.menu-title{
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.message{
+    width: 100%;
+    height: 3rem;
+    background: #b9e9f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+.message-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: #fbb435;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+.play{
+
+    background: url("形状\ 17.png");
+    width: 14px;
+    height: 15px;
+    margin-left: 4px;
+    background-size: cover;
+}
+
+.arrows{
+    width: 100%;
+    display: flex;
+    background: #29bde0;
+    justify-content: space-around;
+    align-items: center;
+}
+.arrowItem{
+    width: 0;
+    height: 0;
+    border: 0.6rem solid transparent;
+    border-top: 0.6rem solid #b9e9f5;
+}
+.arrowItem-none{
+    visibility: hidden;
+}
+.title{
+    color: #ffffff;
+    background: #29bde0;
+    padding-left:5rem;
+    width: 100%;
+}
+
+.main-box{
+    margin-top: 3rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    background: #ffffff;
+}
+.main-box-partone{
+    width: 6rem;
+    height: 4.5rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+    background: #f5c97b;
+    text-align: center;
+    line-height: 4.5rem;
+    font-size: 1.5rem;
+    color: #565656;
+}
+.main-box-parttwo{
+    width: 6rem;
+    height: 1.5rem;
+    margin-left: 0.25rem;
+    background: #83b09a;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #ffffff;
+}
+.main-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.mainflex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
