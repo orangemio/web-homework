@@ -1,31 +1,12 @@
 
 .logo{
-    height: 1.5rem;
+    height: 2rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
 }
 
-.logoOne{
-    margin-right: 4px;
-    background-image: url("wechat.png");
-    width:13px;
-    height: 12px;
-}
-
-.logoTwo{
-    margin-right: 4px;
-    background-image: url("qq.png");
-    width:13px;
-    height: 12px;
-}
-.logoThree{
-    margin-right: 2px;
-    background-image: url("weibo.png");
-    width:13px;
-    height: 12px;
-}
 .logoGroup{
     display: flex;
     justify-content: center;
@@ -42,5 +23,29 @@
     width: 100%;
     height: 5rem;
     background: #29b078;
-
+}
+.logoGroup img{
+    margin-right: 0.7rem;
+}
+.homeTag,.specialTag{
+    margin-top: 100px;
+}
+.specialTag{
+    margin-left: 40px;
+}
+.homeTag h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.homeTag p,.specialTag p{
+    font-size: 1rem;
+    color: #999999;
+}
+.homeTag img{
+    height: 45px;
+}
+.tag-text{
+    margin-left: 5px;
+    display: inline-block;
+    color: #29b078;
 }
