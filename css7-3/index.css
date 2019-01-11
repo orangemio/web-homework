@@ -1,0 +1,141 @@
+body{
+    background: #29bde0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #29bde0;
+    height: 4rem;
+    border-bottom: 1px solid #74d4eb;
+}
+.menu-text{
+    text-align: center;
+    color: #ffffff;
+    line-height: 4rem;
+    font-size: 1.3rem;
+}
+
+.menu-button-left{
+    background: url("矩形\ 5\ 拷贝\ 2.png");
+    width: 51px;
+    height: 42px;
+    margin-left: 1rem;
+}
+
+.menu-button-right{
+    background: url("Shape\ 120.png");
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+.img-null{
+    height: 3rem;
+    width: 100%;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img-chanpin{
+    width: 210px;
+    height: 120px;
+    background-size: 100% 100%;
+    background-image: url("图层\ 2.png");
+}
+.chanpin-test{
+    padding-top: 1.5rem;
+    width: 75%;
+    color: #fbb435;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.text-list{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-detail{
+    font-size: 1rem;
+    color: white;
+
+    margin-top: 0.5rem;
+}
+
+
+.result-list-box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+}
+.result-list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 1px solid #565656;
+}
+
+.line-one,.line-two,.line-three{
+    width: 75%;
+}
+.line-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lineone-partone{
+    font-size: 1.1rem;
+    color: #565656;
+}
+.lineone-parttwo{
+    font-size: 0.9rem;
+    color: hsl(0, 9%, 86%);
+}
+
+.line-two,.line-three{
+    color: hsl(0, 3%, 64%);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: hsla(191, 75%, 52%, 0.582);
+}
+.reset{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    outline: none;
+}
+.first-bottom{
+    
+    background: #f66f6f;
+    color: #ffffff;
+}
+.second-bottom{
+    background: #fbb435;
+    color: #ffffff;
+}
