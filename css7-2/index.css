@@ -85,9 +85,9 @@ body{
     padding-left:5rem;
     width: 100%;
 }
-
 .main-box{
-    margin-top: 3rem;
+    overflow:hidden;
+    margin-top: 1rem;
     width: 5.5rem;
     height: 5.5rem;
     background: #ffffff;
@@ -143,4 +143,18 @@ body{
     height: 3rem;
     color: white;
     background: #fbb435;
+}
+
+.mainpic{
+    margin-top: 1rem;
+    background-image: url('组\ 4.png');
+    width: 5.5rem;
+    height: 1.5rem;
+    background-size:100% 100%;
+    visibility: hidden;
+    
+}
+
+.main-img:hover > .mainpic {
+    visibility:visible;
 }
