@@ -93,6 +93,23 @@
     border-left:2px dashed rgba(222,222,222,1);
 }
 
+.specialcircle{
+    position: static;
+    margin-top: 1rem;
+}
+
+.specialcircle li{
+    height: 9px;
+    width: 9px;
+    background-color: #29b078;
+    opacity: 0.1;
+    border-radius: 50%;
+}
+
+.specialcircle .active{
+    background-color: #29b078;
+}
+
 
 @media only screen and ( max-width: 960px ){
     .specialbox{
