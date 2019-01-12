@@ -83,3 +83,20 @@
     font-size: 13px;
     color: #999999;
 }
+
+.adv-text{
+    font-size:0.9rem;
+    color: #999999;    
+} 
+
+.specialbox{
+    border-left:2px dashed rgba(222,222,222,1);
+}
+
+
+@media only screen and ( max-width: 960px ){
+    .specialbox{
+        border-left:0;
+        /* Clear border */
+    }
+ }
