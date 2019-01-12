@@ -21,14 +21,10 @@ body {
     font-size: 0.9rem;
 }
 
-.navbar-brand {
-    margin-left: 50px;
-    border: 1px solid #fff;
-    width: 100px;
-    height: 40px;
-    text-align: center;
+.spceialli {
+    color: #999999;
+    padding-left:0;
 }
-
 
 .logoGroup img {
     margin-right: 0.7rem;
@@ -134,4 +130,9 @@ body {
         border-left: 0;
         /* Clear border */
     }
+}
+
+.footer{
+    color: white;
+    background: #29b078;
 }
