@@ -37,7 +37,7 @@ body{
     background: #ffffff;
     width: 90%;
     border: 1px solid #afbac0;
-    height: 5rem;
+    height: 10vh;
 }
 
 .last-game-icon{
@@ -52,7 +52,7 @@ body{
     flex-direction: column;
     align-items:center;
     justify-content:space-between;
-    height: 25rem;
+    height: 60vh;
     width: 90%;
     border: 1px solid #afbac0;
     background: #ffffff;
