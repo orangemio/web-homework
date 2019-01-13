@@ -125,7 +125,7 @@ body {
     box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
 }
 
-@media only screen and ( max-width: 960px) {
+@media only screen and ( max-width: 768px) {
     .specialbox {
         border-left: 0;
         /* Clear border */
