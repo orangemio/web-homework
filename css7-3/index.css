@@ -140,3 +140,9 @@ body{
     background: #fbb435;
     color: #ffffff;
 }
+
+@media only screen and ( max-width: 500px) {
+    .result-list-item{
+        height: 8rem;
+    }
+}
