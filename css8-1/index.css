@@ -129,6 +129,18 @@ body {
         border-left: 0;
         /* Clear border */
     }
+    .specialTag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .specialTag p {
+        font-size: 1rem;
+        color: #999999;
+        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
 }
 
 .footer{
