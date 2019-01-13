@@ -21,11 +21,14 @@ body{
     background-image:url("menu.png");
     margin-left:.5rem;
 }
+.ItemSpecial{margin-top: 0.4rem;}
+
+
 .menu-button{
     height: 2.5rem;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:center;
     align-items:flex-start;
 }
 .last-game{
@@ -58,6 +61,7 @@ body{
     background: #ffffff;
 }
 .game-title{
+    margin-bottom: 1rem;
     width: 100%;
     height: 50px;
     color: #fbb435;
