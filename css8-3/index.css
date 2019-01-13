@@ -1,0 +1,79 @@
+.logo {
+    height: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.logoGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText {
+    color: #29b078;
+    font-size: 0.9rem;
+}
+
+.spceialli {
+    color: #999999;
+    padding-left:0;
+    list-style-type:none;
+}
+
+.logoGroup img {
+    margin-right: 0.7rem;
+}
+
+.specialTag {
+    margin-top: 100px;
+}
+
+.specialTag {
+    margin-left: 40px;
+}
+
+.homeTag h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.homeTag p,
+.specialTag p {
+    font-size: 1rem;
+    color: #999999
+}
+
+.homeTag img {
+    height: 45px;
+}
+
+.tag-text {
+    margin-left: 5px;
+    display: inline-block;
+    color: #29b078;
+}
+.footer{
+    color: white;
+    background: #29b078;
+}
+
+.specialNav{
+    width: 100%;
+}
+.nav{
+    background: #29b078;
+}
+.nav-test{
+    margin-bottom: 1px;
+}
+.nav-test:hover{
+    margin-bottom: 0px;
+    border-bottom:1px solid #ffffff;
+}
