@@ -77,3 +77,44 @@ body {
     margin-bottom: 0px;
     border-bottom:1px solid #ffffff;
 }
+/* func */
+/* .card-title{
+    margin-top: 1rem;
+} */
+
+
+.spcialtitle p{
+    margin-bottom: 0;
+    font-size: 85%;
+}
+/* rewrite */
+.btn-active{
+    background: #29b078;
+    margin-left: 3rem;
+}
+.table{
+    margin-bottom: 0;
+}
+
+tr td p {
+    display: inline-block;
+    margin-bottom: 0;
+}
+tr td  img{
+    margin-left: .5rem;
+    margin-top:-0.3rem;
+}
+
+.card-style{
+    width: 95%;
+}
+.card-style p{
+    font-size: 0.8rem;
+}
+
+.clear-border-left{
+    border-left: 0;
+}
+.clear-border-right{
+    border-right: 0;
+}
