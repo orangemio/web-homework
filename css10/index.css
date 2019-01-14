@@ -112,3 +112,20 @@ body {
        font-size: 0.6px;
     }
 }
+
+
+/* footer */
+
+
+.footer{
+    color: #999999;
+    background: #F9F9F9;
+}
+
+.specialp{
+    
+}
+.specialp:hover{
+    
+   color:#1d7ad9;
+}
