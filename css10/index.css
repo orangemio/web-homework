@@ -75,49 +75,17 @@ body {
     height: 40px;
     background: linear-gradient(0deg, rgba(241, 241, 241, 1), rgba(245, 245, 245, 1));
 }
-/* form style */
-.second-line{
-    height: 200px;
+
+.special-button{
+    margin-bottom: 70px;
 }
 
-/* form */
-.custom-input{
-    width: 60px !important;
-    height: 20px;
+.specialbtn{
+    width:100%;
 }
 
-.custom-radio{
-    margin-right: 40px;
-}
-
-.custom-margin-right{
-    margin-right: 20px;
-}
-.custom-card-body{
-    flex: 1 1 auto;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
-}
-.linttwo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.linethree{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-@media only screen and ( max-width: 992px) {
-    .linethree{
-        flex-direction: column;
-    }
-    .linttwo{
-        flex-direction: column;
+@media only screen and (max-width: 992px){
+    .special-button{
+        margin-bottom: 0px;
     }
 }
