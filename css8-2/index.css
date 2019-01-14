@@ -63,7 +63,13 @@ body {
     color: white;
     background: #29b078;
 }
-
+.specialp{
+    margin-bottom: 1px;
+}
+.specialp:hover{
+    margin-bottom: 0px;
+    border-bottom:1px solid #ffffff;
+}
 .specialNav{
     width: 100%;
 }

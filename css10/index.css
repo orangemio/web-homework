@@ -1,0 +1,25 @@
+.header{
+    background-color: blue;
+}
+.logo {
+    height: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.logoGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText {
+    color: #29b078;
+    font-size: 0.9rem;
+}

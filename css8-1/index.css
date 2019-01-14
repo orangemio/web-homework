@@ -154,6 +154,7 @@ body {
         z-index: 999;
         box-shadow: 0 3px 15px 3px rgba(51, 51, 51, 0.5);
     }
+
 }
 
 .footer{
@@ -168,9 +169,17 @@ body {
     background: #29b078;
 }
 .nav-test{
-    margin-bottom: 1px;
+    
 }
 .nav-test:hover{
+    margin-bottom: 0px;
+    border-bottom:1px solid #ffffff;
+}
+
+.specialp{
+    margin-bottom: 1px;
+}
+.specialp:hover{
     margin-bottom: 0px;
     border-bottom:1px solid #ffffff;
 }

@@ -20,7 +20,13 @@ body {
     color: #29b078;
     font-size: 0.9rem;
 }
-
+.specialp{
+    margin-bottom: 1px;
+}
+.specialp:hover{
+    margin-bottom: 0px;
+    border-bottom:1px solid #ffffff;
+}
 .spceialli {
     color: #999999;
     padding-left:0;
