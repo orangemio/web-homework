@@ -109,7 +109,7 @@ tr td  img{
     width: 95%;
 }
 .card-style p{
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 
 .clear-border-left{
@@ -127,7 +127,8 @@ tr td  img{
     background: rgba(153, 153, 153, 0.878);
 }
 
-.specialstyle:hover > .wapper{
+.specialstyle:hover  .wapper{
     top:0;
     transition: top 1s linear;
 }
+
