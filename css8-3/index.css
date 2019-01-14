@@ -136,17 +136,20 @@ tr td  img{
 
 @media only screen and ( max-width: 992px) {
     .wapper{
-        width: 91%;
+        width: 96%;
+    }
+    .card-style{
+        width: 100%;
     }
 }
 @media only screen and ( max-width: 576px) {
     .wapper{
-        width: 90%;
+        width: 95%;
     }
 }
 
 @media only screen and ( max-width: 400px) {
     .wapper{
-        width: 87%;
+        width: 92%;
     }
 }
