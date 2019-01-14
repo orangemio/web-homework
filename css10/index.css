@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: #fafafa;
+    background-color:#ffffff;
 }
 
 .logoGroup div {
@@ -29,8 +29,27 @@ body {
 
 .banner {
     width: 100%;
-    color: #f9f9f9;
-    height: 50px;
+    background: rgba(249, 249, 249, 1);
+    height: 80px;
+}
+.navGroup{
+    height: 80px;
+}
+.nav-btn {
+    width:80px;
+    height:40px;
+    margin-right: 10px;
+    line-height: 40px;
+    background:rgba(255,255,255,1);
+    box-shadow:1px 1px 0px 0px rgba(3,3,3,0.08);
+    border-radius:2px 3px 3px 2px;
+}
+.banner > div > div > div:nth-child(1){
+    background-color: #007bff;
+}
+
+.nav-btn:hover{
+    background-color: #007bff;
 }
 
 .circle {
@@ -64,7 +83,6 @@ body {
 
 .tip-text {
     font-size: 0.9rem;
-    
 }
 
 .brand {
@@ -76,16 +94,21 @@ body {
     background: linear-gradient(0deg, rgba(241, 241, 241, 1), rgba(245, 245, 245, 1));
 }
 
-.special-button{
+.special-button {
     margin-bottom: 70px;
 }
 
-.specialbtn{
-    width:100%;
+.specialbtn {
+    width: 100%;
 }
 
-@media only screen and (max-width: 992px){
-    .special-button{
+@media only screen and (max-width: 992px) {
+    .special-button {
         margin-bottom: 0px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .nav-btn {
+       font-size: 0.6px;
     }
 }
