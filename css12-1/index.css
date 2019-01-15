@@ -1,0 +1,175 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.detail {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #ffffff;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: #5fc0cd;
+}
+
+.header img {
+  height: 30px;
+  width: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.container {
+  background-image: url("38a17cec12b0df5f8a4188382ba0e279e7c6e6def0df-X2hc7H@2x.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100% 100%;
+  height: 163px;
+  width: 100%;
+}
+
+.container > img {
+  position: relative;
+  top: 37px;
+  left: 20px;
+  height: 85px;
+  width: 85px;
+}
+
+.container-detail {
+  position: relative;
+  width: 50%;
+  top: -40px;
+  left: 140px;
+}
+
+.name {
+  display: inline-block;
+  font-size: 16px;
+  color: #000000;
+}
+
+.age {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.address {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.address > img {
+  height: 13px;
+  width: 10px;
+}
+
+.skill {
+  /* 计算宽度 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 55px;
+  padding-left: 10px;
+  line-height: 55px;
+  font-size: 14px;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+.skill-detail {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 95%;
+  height: 55px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+.skill-detail > div {
+  margin-left: 4px;
+  line-height: 55px;
+  float: left;
+  font-size: 13px;
+}
+
+.skill-detail > img:nth-child(1) {
+  margin-left: 20px;
+}
+
+.skill-detail > img {
+  height: 15px;
+  width: 15px;
+  float: left;
+  margin-top: 20px;
+}
+
+.workingage {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 95%;
+  height: 55px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-bottom: 1px solid #e1e5e7;
+}
+
+.workingage > div {
+  margin-left: 4px;
+  line-height: 55px;
+  float: left;
+  font-size: 13px;
+}
+
+.workingage > div:nth-child(1) {
+  margin-left: 20px;
+  color: #999999;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background: #ffffff;
+  bottom: 0;
+}
+
+.footer > button {
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 40px;
+  width: 45%;
+  border-radius: 3% 6%;
+  border: #5fc0cd 2px solid;
+}
+
+.footer > button:nth-child(1) {
+  background: #ffffff;
+  color: #5fc0cd;
+}
+
+.footer > button:nth-child(2) {
+  background: #5fc0cd;
+  color: #ffffff;
+}
+/*# sourceMappingURL=index.css.map */
