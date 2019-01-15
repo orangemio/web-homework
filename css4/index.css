@@ -92,7 +92,7 @@ body{
 
 .pass input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #e1e5e7; 
-  }
+}
 
 .login-button button{
     margin-top: 35px;
