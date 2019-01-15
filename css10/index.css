@@ -59,17 +59,20 @@ body {
     text-align: center;
     line-height: 1rem;
     color: white;
-    background-color: orange;
+    background-color: #CCCCCC;
 }
 
 .rectangle {
     width: 5vw;
     height: 0.3rem;
+    background-color: #CCCCCC;
+}
+.step:hover > div {
     background-color: orange;
 }
 
 .step-text {
-    font-size: 0.1rem;
+    font-size: 0.3rem;
 }
 
 .tip {
@@ -112,6 +115,19 @@ body {
        font-size: 0.6px;
     }
 }
+@media only screen and (max-width: 768px) {
+    .step-text {
+        font-size: 0.2rem;
+    }
+}
+@media only screen and (max-width: 444px) {
+    .step-text {
+        font-size: 0.15rem;
+    }
+    .rectangle {
+        width: 25px;
+    }
+}
 
 
 /* footer */
@@ -128,4 +144,19 @@ body {
 .specialp:hover{
     
    color:#1d7ad9;
+}
+
+
+
+
+
+/* 替换默认下拉按钮样式 */
+
+.dropdown-toggle::after{
+    border: 0;
+    height: 30px;
+    width:24px;
+    background-size:cover; 
+    background-image: url("button.png") ;
+    color:#1d7ad9;
 }
