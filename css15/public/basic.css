@@ -99,8 +99,8 @@ a {
   border-radius: inherit;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  -webkit-animation-name: fade;
-          animation-name: fade;
+  -webkit-animation-name: move;
+          animation-name: move;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
@@ -165,7 +165,7 @@ a {
           animation-delay: 15s;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes move {
   0% {
     opacity: 0;
     z-index: 2;
@@ -188,7 +188,7 @@ a {
   }
 }
 
-@keyframes fade {
+@keyframes move {
   0% {
     opacity: 0;
     z-index: 2;
