@@ -206,11 +206,11 @@ a {
     padding-bottom: 30%;
 }
 
-.navbar-self {
+.navbar {
     background-color: #29b078;
 }
 
-.navbar-self::after {
+.navbar::after {
     content: "";
     display: block;
     clear: both;
