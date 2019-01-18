@@ -45,11 +45,11 @@ a {
     color: #fff;
 }
 
-.floatfix {
+.clearfix {
     *zoom: 1;
 }
 
-.floatfix:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
@@ -68,7 +68,7 @@ a {
     width: 100%;
     position: absolute;
     animation-timing-function: linear;
-    animation-name: fade;
+    animation-name: move;
     animation-iteration-count: infinite;
     background-size: 100%;
 }
@@ -104,10 +104,6 @@ a {
 .focus-item4,
 .focus-item5 {
     opacity: 0;
-}
-
-.focus-container ul {
-    margin-left: 46%;
 }
 
 .focus-container {
