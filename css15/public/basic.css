@@ -40,7 +40,6 @@ li {
     list-style: none;
 }
 
-
 a {
     text-decoration: none;
     color: #fff;
@@ -55,7 +54,6 @@ a {
     display: table;
     clear: both;
 }
-
 
 .slider-contaner {
     width: 100%;
@@ -112,16 +110,13 @@ a {
     margin-left: 46%;
 }
 
-
 .focus-container {
     bottom: 2%;
 }
 
-
 .focus-item {
     background: #51B1D9;
 }
-
 
 .slider-item,
 .focus-item {
@@ -194,11 +189,11 @@ a {
 }
 
 .slider-item4 {
-    background-image: url(../img/backimage2.png);
+    background-image: url(../img/bigimage2.png);
 }
 
 .slider-item5 {
-    background-image: url(../img/backimage4.jpeg);
+    background-image: url(../img/bigimage4.jpeg);
 }
 
 .slider,
