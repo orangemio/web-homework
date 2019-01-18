@@ -55,16 +55,16 @@ a {
   clear: both;
 }
 
-.slider-contaner {
+.sliders-contaner {
   width: 100%;
   position: relative;
 }
 
-.slider-item + .slider-item {
+.sliders + .sliders {
   opacity: 0;
 }
 
-.slider-item {
+.sliders {
   width: 100%;
   position: absolute;
   -webkit-animation-timing-function: linear;
@@ -76,7 +76,7 @@ a {
   background-size: 100%;
 }
 
-.focus-container {
+.sliders-circle-container {
   position: absolute;
   z-index: 7;
   margin: 0 auto;
@@ -84,7 +84,7 @@ a {
   right: 0;
 }
 
-.focus-container li {
+.sliders-circle-container li {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -93,7 +93,7 @@ a {
   background: #fff;
 }
 
-.focus-item {
+.sliders-circle {
   width: 100%;
   height: 100%;
   border-radius: inherit;
@@ -105,57 +105,57 @@ a {
           animation-iteration-count: infinite;
 }
 
-.focus-item2,
-.focus-item3,
-.focus-item4,
-.focus-item5 {
+.sliders-circle2,
+.sliders-circle3,
+.sliders-circle4,
+.sliders-circle5 {
   opacity: 0;
 }
 
-.focus-container {
+.sliders-circle-container {
   bottom: 2%;
 }
 
-.focus-item {
+.sliders-circle {
   background: #51B1D9;
 }
 
-.slider-item,
-.focus-item {
+.sliders,
+.sliders-circle {
   -webkit-animation-duration: 20s;
           animation-duration: 20s;
 }
 
-.slider-item1,
-.focus-item1,
+.sliders1,
+.sliders-circle1,
 .slider-ite1 {
   -webkit-animation-delay: -1s;
           animation-delay: -1s;
 }
 
-.slider-item2,
-.focus-item2,
+.sliders2,
+.sliders-circle2,
 .slider-ite2 {
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
 }
 
-.slider-item3,
-.focus-item3,
+.sliders3,
+.sliders-circle3,
 .slider-ite3 {
   -webkit-animation-delay: 7s;
           animation-delay: 7s;
 }
 
-.slider-item4,
-.focus-item4,
+.sliders4,
+.sliders-circle4,
 .slider-ite4 {
   -webkit-animation-delay: 11s;
           animation-delay: 11s;
 }
 
-.slider-item5,
-.focus-item5,
+.sliders5,
+.sliders-circle5,
 .slider-ite5 {
   -webkit-animation-delay: 15s;
           animation-delay: 15s;
@@ -207,28 +207,28 @@ a {
   }
 }
 
-.slider-item1 {
+.sliders1 {
   background-image: url(../img/bigimage1.jpg);
 }
 
-.slider-item2 {
+.sliders2 {
   background-image: url(../img/bigimage2.png);
 }
 
-.slider-item3 {
+.sliders3 {
   background-image: url(../img/bigimage3.png);
 }
 
-.slider-item4 {
+.sliders4 {
   background-image: url(../img/bigimage2.png);
 }
 
-.slider-item5 {
+.sliders5 {
   background-image: url(../img/bigimage4.jpeg);
 }
 
 .slider,
-.slider-item {
+.sliders {
   padding-bottom: 30%;
 }
 

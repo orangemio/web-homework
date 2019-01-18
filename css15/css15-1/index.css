@@ -38,7 +38,7 @@ li {
   margin: 0 auto;
 }
 
-.text1 {
+.content-title {
   font-size: 1.25rem;
   font-weight: bold;
   margin-top: 1rem;
@@ -46,7 +46,7 @@ li {
   text-align: center;
 }
 
-.text2 {
+.content-detail {
   color: #999999;
   text-align: left;
 }
@@ -258,7 +258,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .text2 {
+  .content-detail {
     color: #999999;
     text-align: center;
   }
