@@ -30,7 +30,7 @@ header {
 .rocket {
   height: 62px;
   width: 43px;
-  background: url(img/rocket.png) no-repeat;
+  background: url(../img/rocket.png) no-repeat;
   margin: 0 auto;
 }
 
@@ -50,14 +50,14 @@ header {
 .archive {
   height: 62px;
   width: 60px;
-  background: url(img/archive.png) no-repeat;
+  background: url(../img/archive.png) no-repeat;
   margin: 0 auto;
 }
 
 .humen {
   height: 62px;
   width: 52px;
-  background: url(img/humen.png) no-repeat;
+  background: url(../img/humen.png) no-repeat;
   margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ header {
 .user {
   height: 17px;
   width: 80px;
-  background: url(img/user.png) no-repeat;
+  background: url(../img/user.png) no-repeat;
 }
 
 .study {
