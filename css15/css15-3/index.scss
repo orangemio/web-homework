@@ -154,10 +154,15 @@ footer {
   font-size: 12px;
   background-color: #26a26f;
 }
-.a1 {
+.footer-link {
   color: #fff;
+
 }
-.end {
+.footer-link:hover{
+  color: blue;
+}
+
+.footer {
   width: 100%;
   border-top: solid 1px #32c086;
 }

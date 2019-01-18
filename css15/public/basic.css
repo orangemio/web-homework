@@ -40,16 +40,11 @@ li {
     list-style: none;
 }
 
-/*css reset end*/
-
-/*github展示统一样式start*/
 
 a {
     text-decoration: none;
     color: #fff;
 }
-
-/*css public start*/
 
 .floatfix {
     *zoom: 1;
