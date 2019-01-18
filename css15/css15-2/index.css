@@ -30,7 +30,7 @@ header {
   margin: 10px 0 10px 0;
 }
 
-.text > a {
+.cor {
   color: #26a26f;
 }
 
@@ -119,5 +119,9 @@ footer {
   border-bottom: 0.2rem solid #fff;
   padding-bottom: 0.8rem;
   color: #fff;
+}
+
+.margin-border {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=index.css.map */
