@@ -1,0 +1,42 @@
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.block{
+    height: 30vw;
+    width: 30vw;
+    margin: 1vw;
+    background: orange;
+    border-radius: 5%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.start {
+    width: 90%;
+    height: 30px;
+    background: orange;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.stop {
+    width: 90%;
+    height: 30px;
+    background: white;
+    margin-top: 10px;
+    border: 1px solid orange;
+}
