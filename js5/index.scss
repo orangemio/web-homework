@@ -1,0 +1,29 @@
+.bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/background.jpg');
+    background-size: 100% 100%;
+}
+.login-window{
+    height: 300px;
+    background-color: #ffffff;
+}
+.submit-button{
+    width: 95%;
+}
+.login-logo{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 1px solid #fafafa;
+    margin-top: -38px;
+}
+
+.login-body{
+    width: 100%;
+    height: calc(300px - 38px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
