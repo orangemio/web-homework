@@ -15,9 +15,11 @@ dd {
     margin: 0;
     padding: 0;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 img {
     margin: 0;
     padding: 0;
@@ -54,6 +56,14 @@ a {
 .clearfix:after {
     content: "";
     display: table;
+    clear: both;
+}
+
+.specialclearfix:after {
+    content: ".";
+    display: block;
+    height: 250px;
+    visibility: hidden;
     clear: both;
 }
 
@@ -122,30 +132,35 @@ a {
 }
 
 .sliders1,
+.spsliders1,
 .sliders-circle1,
 .slider-ite1 {
     animation-delay: -1s;
 }
 
 .sliders2,
+.spsliders2,
 .sliders-circle2,
 .slider-ite2 {
     animation-delay: 3s;
 }
 
 .sliders3,
+.spsliders3,
 .sliders-circle3,
 .slider-ite3 {
     animation-delay: 7s;
 }
 
 .sliders4,
+.spsliders4,
 .sliders-circle4,
 .slider-ite4 {
     animation-delay: 11s;
 }
 
 .sliders5,
+.spsliders5,
 .sliders-circle5,
 .slider-ite5 {
     animation-delay: 15s;
@@ -311,9 +326,11 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-.mb-1{
+
+.mb-1 {
     margin-bottom: 1rem;
 }
+
 .row::after,
 .row::before {
     display: table;
@@ -328,9 +345,8 @@ a {
 }
 
 @media screen and (max-width:768px) {
-    .es-6{
+    .es-6 {
         width: 50% !important;
-        
     }
 }
 
@@ -341,7 +357,6 @@ a {
     .col-sm-3 {
         width: 25%;
     }
-
 }
 
 @media screen and (min-width:900px) {
@@ -357,7 +372,7 @@ a {
     .col-md-4 {
         width: 33.33333333%;
     }
-    .col-md-1{
+    .col-md-1 {
         width: calc(100%/12);
     }
 }
@@ -369,7 +384,8 @@ a {
 }
 
 @media screen and (min-width:1400px) {
-    .col-lg-4,.col-splg-4 {
+    .col-lg-4,
+    .col-splg-4 {
         width: 33%;
     }
 }
@@ -381,11 +397,55 @@ a {
     .col-md-9 {
         width: 100%;
     }
+    .specialclearfix:after {
+        content: ".";
+        display: block;
+        height: 1800px;
+        visibility: hidden;
+        clear: both;
+    }
 }
 
 @media screen and (max-width:768px) {
     [class*='col-'] {
         width: 100%;
+    }
+    .specialclearfix:after {
+        content: ".";
+        display: block;
+        height: 800px;
+        visibility: hidden;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .specialclearfix:after {
+        content: ".";
+        display: block;
+        height: 1000px;
+        visibility: hidden;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .specialclearfix:after {
+        content: ".";
+        display: block;
+        height: 1000px;
+        visibility: hidden;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .specialclearfix:after {
+        content: ".";
+        display: block;
+        height: 500px;
+        visibility: hidden;
+        clear: both;
     }
 }
 
@@ -394,6 +454,7 @@ a {
         width: 100%;
     }
 }
+
 @media screen and (max-width:1400px) {
     .col-splg-4 {
         width: 100%;

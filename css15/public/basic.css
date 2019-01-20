@@ -59,6 +59,14 @@ a {
   clear: both;
 }
 
+.specialclearfix:after {
+  content: ".";
+  display: block;
+  height: 250px;
+  visibility: hidden;
+  clear: both;
+}
+
 .sliders-contaner {
   width: 100%;
   position: relative;
@@ -131,6 +139,7 @@ a {
 }
 
 .sliders1,
+.spsliders1,
 .sliders-circle1,
 .slider-ite1 {
   -webkit-animation-delay: -1s;
@@ -138,6 +147,7 @@ a {
 }
 
 .sliders2,
+.spsliders2,
 .sliders-circle2,
 .slider-ite2 {
   -webkit-animation-delay: 3s;
@@ -145,6 +155,7 @@ a {
 }
 
 .sliders3,
+.spsliders3,
 .sliders-circle3,
 .slider-ite3 {
   -webkit-animation-delay: 7s;
@@ -152,6 +163,7 @@ a {
 }
 
 .sliders4,
+.spsliders4,
 .sliders-circle4,
 .slider-ite4 {
   -webkit-animation-delay: 11s;
@@ -159,6 +171,7 @@ a {
 }
 
 .sliders5,
+.spsliders5,
 .sliders-circle5,
 .slider-ite5 {
   -webkit-animation-delay: 15s;
@@ -407,7 +420,8 @@ a {
 }
 
 @media screen and (min-width: 1400px) {
-  .col-lg-4, .col-splg-4 {
+  .col-lg-4,
+  .col-splg-4 {
     width: 33%;
   }
 }
@@ -419,11 +433,55 @@ a {
   .col-md-9 {
     width: 100%;
   }
+  .specialclearfix:after {
+    content: ".";
+    display: block;
+    height: 1800px;
+    visibility: hidden;
+    clear: both;
+  }
 }
 
 @media screen and (max-width: 768px) {
   [class*='col-'] {
     width: 100%;
+  }
+  .specialclearfix:after {
+    content: ".";
+    display: block;
+    height: 800px;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .specialclearfix:after {
+    content: ".";
+    display: block;
+    height: 1000px;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .specialclearfix:after {
+    content: ".";
+    display: block;
+    height: 1000px;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .specialclearfix:after {
+    content: ".";
+    display: block;
+    height: 500px;
+    visibility: hidden;
+    clear: both;
   }
 }
 
