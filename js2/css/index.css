@@ -1,0 +1,192 @@
+.header {
+  width: 100%;
+  height: 2.5rem;
+  background: #29bde0;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+.main-body {
+  height: calc(100vh - 2.5rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuItem {
+  height: 2px;
+  width: 17px;
+  background-image: url("../public/menu.png");
+  margin-left: .5rem;
+}
+
+.ItemSpecial {
+  margin-top: 0.4rem;
+}
+
+.menu-button {
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.last-game {
+  color: #afbac0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #ffffff;
+  width: 90%;
+  border: 1px solid #afbac0;
+  height: 10vh;
+}
+
+.last-game-icon {
+  width: 10px;
+  height: 20px;
+  background-image: url("../public/BackIcon.png");
+}
+
+.game-body {
+  margin-top: -80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60vh;
+  width: 90%;
+  border: 1px solid #afbac0;
+  background: #ffffff;
+}
+
+.game-title {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 50px;
+  color: #fbb435;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #fbb435;
+}
+
+.with-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.game-body button,
+.with-arrow > button {
+  height: 10vh;
+  width: 80%;
+  background-color: #69d1e9;
+  border: 0;
+}
+
+.message {
+  color: #afbac0;
+}
+
+.circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circleItem {
+  background-color: #f0f0f0;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.1rem;
+}
+
+.circleItemAcitve {
+  background-color: #69d1e9;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.1rem;
+}
+
+.circleItem:hover {
+  background-color: #69d1e9;
+}
+
+.arrow {
+  background-image: url("../public/shape.png");
+  width: 14px;
+  height: 28px;
+}
+
+.arrow-back {
+  background-image: url("../public/shape.png");
+  width: 14px;
+  height: 28px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*# sourceMappingURL=index.css.map */
