@@ -16,6 +16,10 @@ dd {
   padding: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
 img {
   margin: 0;
   padding: 0;
@@ -346,6 +350,10 @@ a {
   margin-right: auto;
 }
 
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
 .row::after,
 .row::before {
   display: table;
@@ -359,9 +367,18 @@ a {
   min-height: 0.01rem;
 }
 
+@media screen and (max-width: 768px) {
+  .es-6 {
+    width: 50% !important;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .col-sm-6 {
     width: 50%;
+  }
+  .col-sm-3 {
+    width: 25%;
   }
 }
 
@@ -377,6 +394,9 @@ a {
   }
   .col-md-4 {
     width: 33.33333333%;
+  }
+  .col-md-1 {
+    width: calc(100%/12);
   }
 }
 

@@ -27,6 +27,10 @@ li {
   font-size: 4vw;
 }
 
+.text-style {
+  color: #999999;
+}
+
 .mr-2 {
   margin-top: 2rem;
 }
