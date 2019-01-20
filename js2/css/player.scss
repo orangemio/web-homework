@@ -3,6 +3,7 @@
     height: 2.5rem;
     background: #29bde0;
 }
+
 .menuItem {
     height: 17.5px;
     width: 10px;
@@ -14,6 +15,9 @@
 .ItemSpecial {
     visibility: hidden;
 }
+.unvisible{
+    visibility: hidden;
+}
 
 .menu-button {
     height: 2.5rem;
@@ -23,23 +27,66 @@
     align-items: center;
 }
 
-.img{
+.img {
     height: 30px;
     width: 30px;
     border-radius: 50%;
     background: orange;
-    >img{
+    >img {
         height: 70%;
         width: 70%;
     }
 }
-.mainbody{
-    height: 45vh;
-}
 
-.form-custom{
+
+
+.form-custom {
     width: 30%;
 }
-.maininput{
-    height: 20vh;
+
+
+.inputnumber {
+    font-size: 0.8rem;
+}
+
+.cust-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    button {
+        width: 80%;
+    }
+}
+.ruler{
+    .color {
+        height: 5px;
+        width: 5px;
+        background: orange;
+        margin-right: 5px;
+    }
+}
+.people{
+    .color {
+        height: 5px;
+        width: 5px;
+        background: blue;
+        margin-right: 5px;
+    }
+}
+#ok{
+    color: blue;
+    cursor: pointer;
+}
+
+.clear-border {
+    margin: 0;
+}
+
+.cust-input {
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 }

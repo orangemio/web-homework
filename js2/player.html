@@ -30,36 +30,126 @@
         <div class=" card
                 mt-3">
                 <div class="container mainbody">
-                    <div class="row mt-3">
-                        <div class="col-6 d-flex flex-row justify-content-center align-items-center">
-                            <div class="img d-flex flex-row justify-content-center align-items-center"><img src="./public/person-logo.png"
-                                    alt=""></div>
-                            <p style="margin:0;">有9个法官</p>
+                    <div class="row mt-1">
+                        <div class="ruler col-6 d-flex justify-content-center align-items-center unvisible" id="ruler1">
+                            <div class="color"></div>
+                            <p class="clear-border">杀手</p>
                         </div>
-                        <div class="col-6 d-flex flex-row justify-content-center align-items-center">
-                            <div class="img d-flex flex-row justify-content-center align-items-center"><img src="./public/person-logo.png"
-                                    alt=""></div>
-                            <p style="margin:0;">有9个法官</p>
+                        <div class="ruler col-6  d-flex justify-content-center align-items-center unvisible" id="ruler2">
+                            <div class="color"></div>
+                            <p class="clear-border">杀手</p>
+                        </div>
+                        <div class="ruler col-6 d-flex justify-content-center align-items-center unvisible" id="ruler3">
+                            <div class="color"></div>
+                            <p class="clear-border">杀手</p>
+                        </div>
+                        <div class="ruler col-6  d-flex justify-content-center align-items-center unvisible" id="ruler4">
+                            <div class="color"></div>
+                            <p class="clear-border">杀手</p>
+                        </div>
+                        <div class="ruler col-6 d-flex justify-content-center align-items-center unvisible" id="ruler5">
+                            <div class="color"></div>
+                            <p class="clear-border">杀手</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people1">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people2">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people3">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people4">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people5">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people6">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people7">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people8">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people9">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people10">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people11">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people12">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+                        <div class="people col-6  d-flex justify-content-center align-items-center unvisible" id="people13">
+                            <div class="color"></div>
+                            <p class="clear-border">平民</p>
+                        </div>
+
+                        <div class="col-12 text-center" id="ok" style="order:999;border-top: 1px solid #dbdbdb;">
+                            点击设置
                         </div>
                     </div>
                 </div>
         </div>
-
-        <div class="card mt-3 maininput d-flex flex-column justify-content-center align-items-center ">
-            <form class="">
+        <div class="card mt-2">
+            <input class="mt-1 cust-input" type="text" placeholder="请输入杀手关键词">
+            <input class="mt-1 " type="text" placeholder="平民关键词">
+        </div>
+        <div class="card mt-2  maininput d-flex flex-column justify-content-center align-items-center ">
+            <form class="mt-2">
                 <div class="mx-sm-3  d-flex flex-row justify-content-center align-items-center">
-                    <label for="inputnumber " class="mb-0 mr-2">请输入玩家数量</label>
+                    <label for="inputnumber " class="mb-0 mr-2 inputnumber">请输入玩家数量</label>
                     <input type="number" class="form-control form-custom" id="inputnumber" placeholder="">
-                    <label for="inputnumber " class="mb-0 ml-2">玩家数量为2-8</label>
+                    <label for="inputnumber " class="mb-0 ml-2 inputnumber">玩家数量为4-18</label>
                 </div>
             </form>
+
+            <input type="range" class="custom-range " min="4" max="18" id="customRange2">
         </div>
-
-        <button></button>
-
+        <div class="cust-btn mt-3">
+            <button type="button" class="btn btn-warning">确定</button>
+        </div>
     </div>
-
-
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">提示</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    请输入正确的玩家数量
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
