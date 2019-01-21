@@ -50,4 +50,43 @@ body {
 .titleItem {
   color: #ffffff;
 }
+
+.cardbox {
+  height: 60vh;
+  background: #ffedc5;
+  border: 3px solid #ffffff;
+}
+
+.cust-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cust-btn button {
+  width: 80%;
+  color: #ffffff;
+}
+
+.index {
+  color: red;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 50%;
+  background: #ffffff;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 /*# sourceMappingURL=detail.css.map */

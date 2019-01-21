@@ -38,3 +38,29 @@ body{
 .titleItem{
     color: #ffffff;
 }
+
+.cardbox{
+    height: 60vh;
+    background: #ffedc5;
+    border:3px solid #ffffff;
+}
+.cust-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    button {
+        width: 80%;
+        color: #ffffff;
+    }
+}
+.index{
+    color: red;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    background: #ffffff;
+    transform:translateY(-50%);
+}
