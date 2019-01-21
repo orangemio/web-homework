@@ -30,6 +30,8 @@ var reedom = function () {
                     colors[i] = getRandomColor();
                     if (colors[i] == colors[i - 1]) {
                         colors[i] = getRandomColor();
+                    }else if(i == 2&&(colors[i] == colors[i - 2])){
+                        colors[i] = getRandomColor();
                     }
                     let element = document.getElementById(result[i]);
                     element.style.background = colors[i];
