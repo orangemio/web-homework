@@ -24,7 +24,7 @@ $(function () {
             if (key.peoplekey == '') {
                 $('#exampleModal2').modal();
             } else {
-                window.sessionStorage.setItem("key", JSON.stringify(key));
+                window.localStorage.setItem("key", JSON.stringify(key));
             }
         }
     }
@@ -32,12 +32,12 @@ $(function () {
 
         var cache = {};
         var order = [];
-        cache.number =  $('#inputnumber').val();
+        cache.number =  Number($('#inputnumber').val());
         $(".visible").each(function(index){
-            order.push($(this).css("order"));
+            order.push(Number($(this).css("order")));
         });
         cache.order = order;
-        window.sessionStorage.setItem("cache",JSON.stringify(cache));
+        window.localStorage.setItem("cache",JSON.stringify(cache));
     }
 
     // 4 ---- 1
@@ -61,7 +61,7 @@ $(function () {
     const people = ["#people1", "#people2", "#people3", "#people4", "#people5", "#people6", "#people7", "#people8", "#people9", "#people10", "#people11", "#people12", "#people13"];
 
     function reedomNumber() {
-        return ("-" + Math.floor((Math.random() * (18 - 4) + 4)));
+        return ("-" + Math.floor((Math.random() * (99 - 4) + 4)));
     }
 
 

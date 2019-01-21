@@ -89,4 +89,27 @@ body {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+.hidden {
+  background: url(../public/detail1.png);
+  height: 200px;
+  width: 200px;
+  background-size: 100%;
+}
+
+.message {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.user {
+  background: url(../public/detail2.png);
+  height: 200px;
+  width: 200px;
+  background-size: 100%;
+}
+
+.unvisible {
+  display: none;
+}
 /*# sourceMappingURL=detail.css.map */
