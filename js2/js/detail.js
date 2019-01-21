@@ -1,5 +1,9 @@
 $(function () {
 
+    //Golbal 
+    let hidden = true;
+    let currentStep = 1;
+
     //ReOrder Arroy
     function sortarray(arr) {
         return Array.prototype.slice.call(arr).sort(function (a, b) { return a - b; });
@@ -12,8 +16,6 @@ $(function () {
     } else if (cache == null) {
         alert("未设置参与人数，请返回上一页");
     }
-
-
 
     function calculate() {
         const number = cache.number;
@@ -39,9 +41,57 @@ $(function () {
         return arr;
     }
 
+    function storage() {
+
+    }
+
     let arr = calculate();
 
-    
+    $('#nextstep').click(function () {
+
+        if(currentStep == arr.length + 1){
+
+            window.location.href="www.baidu.com";
+        }
+
+        if (hidden) {
+            $("#hidden").addClass("unvisible");
+            $("#user").removeClass("unvisible");
+            $("#message").removeClass("unvisible").text(function(){
+                if(arr[currentStep-1] == 2){
+                    return "杀手"
+                }else{
+                    return "平民"
+                }
+            });
+            $('#index').text(currentStep.toString());
+            $('#nextstep').text(
+                function(){
+                    if(currentStep==arr.length){
+                        return ("法官查看");
+                    }else{
+                        return ("隐藏并传达给" + (currentStep + 1) + "号");
+                    }
+                    
+                }
+                
+            );
+            currentStep++;
+            hidden = false;
+        } else {
+            if(currentStep == arr.length + 1){
+                window.location.href="https://www.baidu.com";
+            }else{
+            $("#user").addClass("unvisible");
+            $("#message").addClass("unvisible");
+            $("#hidden").removeClass("unvisible");
+            $('#index').text(currentStep.toString());
+            $('#nextstep').text("查看" + currentStep + "号身份");
+            hidden = true;
+            }
+        }
+        storage();
+    });
 
 
 })

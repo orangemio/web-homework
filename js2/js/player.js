@@ -20,11 +20,14 @@ $(function () {
         key.peoplekey = $('#peoplekey').val();
         if (key.killerkey == '') {
             $('#exampleModal2').modal();
+            return false;
         } else {
             if (key.peoplekey == '') {
                 $('#exampleModal2').modal();
+                return false;
             } else {
                 window.localStorage.setItem("key", JSON.stringify(key));
+                return true;
             }
         }
     }
@@ -125,10 +128,10 @@ $(function () {
     });
 
     $("#nextstep").click(function () {
-        checkValue();
-        checkKey();
+       if(checkValue()&&checkKey()){
         saveOrder();
-
+        window.location.href="./detail.html";
+       } 
     })
 })
 
