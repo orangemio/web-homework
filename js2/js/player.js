@@ -35,12 +35,6 @@ $(function () {
         cache.number =  $('#inputnumber').val();
         $(".visible").each(function(index){
             order.push($(this).css("order"));
-            // if($(this).hasClass("ruler")){
-            //     order.push($(this).css("order"));
-            // }
-            // if($(this).hasClass("people")){
-            //     order.push($(this).css("order"));
-            // }
         });
         cache.order = order;
         window.sessionStorage.setItem("cache",JSON.stringify(cache));
