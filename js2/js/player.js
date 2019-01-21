@@ -14,6 +14,38 @@ $(function () {
             return false;
         }
     }
+    function checkKey() {
+        var key = {};
+        key.killerkey = $('#killerkey').val();
+        key.peoplekey = $('#peoplekey').val();
+        if (key.killerkey == '') {
+            $('#exampleModal2').modal();
+        } else {
+            if (key.peoplekey == '') {
+                $('#exampleModal2').modal();
+            } else {
+                window.sessionStorage.setItem("key", JSON.stringify(key));
+            }
+        }
+    }
+    function saveOrder() {
+
+        var cache = {};
+        var order = [];
+        cache.number =  $('#inputnumber').val();
+        $(".visible").each(function(index){
+            order.push($(this).css("order"));
+            // if($(this).hasClass("ruler")){
+            //     order.push($(this).css("order"));
+            // }
+            // if($(this).hasClass("people")){
+            //     order.push($(this).css("order"));
+            // }
+        });
+        cache.order = order;
+        window.sessionStorage.setItem("cache",JSON.stringify(cache));
+    }
+
     // 4 ---- 1
     // 5 ---- 1
     // 6 ---- 2
@@ -29,6 +61,8 @@ $(function () {
     // 16 ---- 5
     // 17 ---- 5
     // 18 ---- 5
+
+
     const ruler = ["#ruler1", "#ruler2", "#ruler3", "#ruler4", "#ruler5"];
     const people = ["#people1", "#people2", "#people3", "#people4", "#people5", "#people6", "#people7", "#people8", "#people9", "#people10", "#people11", "#people12", "#people13"];
 
@@ -36,7 +70,9 @@ $(function () {
         return ("-" + Math.floor((Math.random() * (18 - 4) + 4)));
     }
 
-    function setnormal(){
+
+
+    function setnormal() {
         for (let i = 0; i < ruler.length; i++) {
             $(ruler[i]).removeClass("visible").addClass("unvisible").css("order", "0");
         }
@@ -50,13 +86,13 @@ $(function () {
         let rulernumber;
         if (n >= 4 && n <= 5) {
             rulernumber = 1;
-        }else if(n >= 6 && n <= 8){
+        } else if (n >= 6 && n <= 8) {
             rulernumber = 2;
-        }else if(n >= 9 && n <= 11){
+        } else if (n >= 9 && n <= 11) {
             rulernumber = 3;
-        }else if(n >= 12 && n <= 15){
+        } else if (n >= 12 && n <= 15) {
             rulernumber = 4;
-        }else{
+        } else {
             rulernumber = 5;
         }
 
@@ -93,5 +129,12 @@ $(function () {
     $('#ok').click(function () {
         reedom();
     });
+
+    $("#nextstep").click(function () {
+        checkValue();
+        checkKey();
+        saveOrder();
+
+    })
 })
 
