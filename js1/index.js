@@ -14,6 +14,13 @@ var getRandomColor = function () {
         })('');
 }
 
+function getnotrepeatcolor(str){
+    while(color!=str){
+        var color = getRandomColor();
+        return color;
+    }
+}
+
 var reedom = function () {
     if (!havetimer) {
         havetimer = true;
@@ -29,9 +36,10 @@ var reedom = function () {
                 for (let i = 0; i < result.length; i++) {
                     colors[i] = getRandomColor();
                     if (colors[i] == colors[i - 1]) {
-                        colors[i] = getRandomColor();
-                    }else if(i == 2&&(colors[i] == colors[i - 2])){
-                        colors[i] = getRandomColor();
+                        colors[i] = getnotrepeatcolor(colors[i-1])
+                    }
+                    if(i == 2&&(colors[i] == colors[i - 2])){
+                        colors[i] = getnotrepeatcolor(colors[i-2])
                     }
                     let element = document.getElementById(result[i]);
                     element.style.background = colors[i];
